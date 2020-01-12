@@ -144,7 +144,7 @@
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	letter-spacing: 1px;
-	color: #cc683c;
+	color: #f0ead6;
 	background-color: transparent;
 	border: none;
 	border-bottom: 2px solid #fff;
@@ -155,7 +155,7 @@
 }
 
 .form-input:focus {
-	border-bottom-color: #cc683c;
+	border-bottom-color: #ffbf00;
 }
 
 .sign-up-form p {
@@ -192,7 +192,8 @@
 }
 
 .sign-up-form input:checked[type="checkbox"] {
-	background-color: #cc683c;
+	background-color: #ffbf00;
+	/* background-color: #cc683c; */
 }
 
 .sign-up-form input[type="checkbox"]::before {
@@ -256,7 +257,7 @@
 	right: 1%;
 	font-size: 23px;
 	font-weight: bold;
-	color: #262626;
+	color: #fff;
 	cursor: pointer;
 }
 
