@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/61eff9f1c7.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500|Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>CYPHER</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="warp">
+      <div class="slide slide1 fade">
+
+      </div>
+      <div class="slide slide2 fade">
+
+      </div>
+      <div class="slide slide3 fade">
+
+      </div>
+      <div class="slide slide4 fade">
+
+      </div>
+    </div>
+    <div class="class banner">
+      <h1 class="banner-heading">CYPHER FEST</h1>
+      <div class="arrow">
+        <i class="fas fa-arrow-down"></i>
+      </div>
+      <button class="banner-btn">get updates</button>
+    </div>
+    <div class="form-container">
+      <form class="sign-up-form">
+        <input type="text" class="form-input" placeholder="FULL NAME">
+        <input type="email" class="form-input" placeholder="EMAIL ADDRESS">
+        <p>Get News?</p>
+        <label>No</label>
+        <input type="checkbox">
+        <label>Yes</label>
+        <button type="button">Sign Up Here</button>
+      </form>
+
+      <div class="header">
+        <h1>Welcome to CYPHER Music Festival</h1>
+      </div>
+      <div class="x-btn">&#10005;</div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+<?php
+// echo 'hello from the public folder';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+require '../vendor/autoload.php';
+
+$mail = new PHPMailer();
+
+echo get_class($mail);
+?>
