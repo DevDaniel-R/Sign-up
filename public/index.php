@@ -21,7 +21,6 @@
 
       </div>
       <div class="slide slide3 fade">
-
       </div>
       <div class="slide slide4 fade">
 
@@ -35,14 +34,14 @@
       <button class="banner-btn">get updates</button>
     </div>
     <div class="form-container">
-      <form class="sign-up-form">
+      <form action="send.php" method="post" class="sign-up-form">
         <input type="text" class="form-input" placeholder="FULL NAME">
-        <input type="email" class="form-input" placeholder="EMAIL ADDRESS">
+        <input id="recipient" type="email" class="form-input" placeholder="EMAIL ADDRESS">
         <p>Get News?</p>
         <label>No</label>
-        <input type="checkbox">
+        <input type="checkbox">*
         <label>Yes</label>
-        <button type="button">Sign Up Here</button>
+        <button type="Submit">Sign Up Here</button>
       </form>
 
       <div class="header">
@@ -56,16 +55,3 @@
 </body>
 
 </html>
-
-<?php
-// echo 'hello from the public folder';
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
-
-require '../vendor/autoload.php';
-
-$mail = new PHPMailer();
-
-echo get_class($mail);
-?>
