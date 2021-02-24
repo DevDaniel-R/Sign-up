@@ -1,4 +1,4 @@
-<?php
+ <!-- <?php
 
 require '../vendor/autoload.php';
 
@@ -16,7 +16,8 @@ $mailgun->sendMessage(
 );
 
 $end_time = microtime(true);
-$time = number_format($end_time, 5);
+$time = number_format($end_time, 5);  -->
+
 // use Mailgun\Mailgun;
 
 # Instantiate the client.
