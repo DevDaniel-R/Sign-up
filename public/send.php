@@ -1,22 +1,22 @@
  <!-- <?php
 
-require '../vendor/autoload.php';
+      //require '../vendor/autoload.php';
 
-$client = new \Http\Adapter\Guzzle6\Client();
-$mailgun = new \Mailgun\Mailgun(Config::MAILGUN_API_KEY, $client);
+//      $client = new \Http\Adapter\Guzzle6\Client();
+//      $mailgun = new \Mailgun\Mailgun(Config::MAILGUN_API_KEY, $client);
 
-$mailgun->sendMessage(
-  'mg.daniecodes.com',
-  [
-    'from'    => 'daniel@danielcodes.com',
-    'to'      => 'drodriguez661@gmail.com',
-    'subject' => 'The PHP SDK is awesome!',
-    'text'    => 'It is so simple to send a message.'
-  ]
-);
+//$mailgun->sendMessage(
+//  'mg.daniecodes.com',
+//  [
+//    'from'    => 'daniel@danielcodes.com',
+//    'to'      => 'drodriguez661@gmail.com',
+//    'subject' => 'The PHP SDK is awesome!',
+//    'text'    => 'It is so simple to send a message.'
+//  ]
+//);
 
-$end_time = microtime(true);
-$time = number_format($end_time, 5);  -->
+//$end_time = microtime(true);
+//$time = number_format($end_time, 5);  -->
 
 // use Mailgun\Mailgun;
 
